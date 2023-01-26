@@ -1,5 +1,11 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 <a name="readme-top"></a>
+
+<div align="center">
+
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+</div>
 
 # 📗 Table of Contents
 - [📗 Table of Contents](#-table-of-contents)
