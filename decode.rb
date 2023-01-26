@@ -8,3 +8,17 @@ def decode_char(char)
   }
   decoder[char]
 end
+
+def decode_word(word)
+  word.split.map do |char|
+    decode_char(char)
+  end.join
+end
+
+def decode_message(message)
+  message.split('   ').map do |word|
+    decode_word(word)
+  end.join(' ')
+end
+
+puts decode_message('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
