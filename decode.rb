@@ -21,4 +21,4 @@ def decode_message(message)
   end.join(' ')
 end
 
-puts decode_message('.- .--  -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
+puts decode_message('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
